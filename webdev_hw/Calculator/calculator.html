@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CMP 484</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="calculatorForm" method="POST">
+    <fieldset>
+      <legend>Calculator</legend>
+      <p>Use this form to calculate the order total. </p>
+      
+      <div id="qtsBox">
+        <label for"qts">Quality</label>
+        <input type="number" id="qts" name="qts" min=1 value="1" placeholder="0">
+      </div>
+      
+      <div id="priceBox">
+        <label for"price">Price Per Unit</label><br>
+        <input type="number" id="price" name="price" min=0 step="0.01" value="0.00" placeholder="0.00">
+      </div>
+      
+      <div id="taxBox">
+        <label for"taxes">Tax Rate (%)</label><br>
+        <input type="number" id="taxes" name="taxes" min=0 step="0.01" value="0.00" placeholder="0.00">
+      </div>
+      
+      <div id="discountBox">
+        <label for"discount">Discount (%)</label><br>
+        <input type="number" id="discount" name="discount" min=0 step="0.01" value="0.00" placeholder="0.00">
+      </div>
+      
+      <div id="totalBox"> 
+        <label for="total">Total</label>
+        <input type="text" name="total" id="total" placeholder="0.00" value="0.00">
+      </div>
+      
+      <button onclick="calculator()">Calculate</button>
+      <script src="calculator.js"></script>
+      
+    </fieldset>
+   </form>
+</body>
+</html>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
