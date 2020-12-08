@@ -1,0 +1,23 @@
+body{
+    border: auto;
+    border-color: grey;
+  }
+  
+  legend{
+    color: rgb(202, 158, 158);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  fieldset{ 
+    border-color: black;
+    width: 80%;
+    margin: auto;
+    flex-basis: auto;
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+      body {
+        width: 90%;
+      }
+    }
